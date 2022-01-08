@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,600;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+
+body{
+    font-family: 'Signika', serif;
+    background-color: #c4c4c4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    width: auto;
+    height: auto;
+    font-size: 80px;    
+    border: 2px solid black;
+    color: white;
+    padding-top: 50px;
+    background-color: #532B79;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.card-footer {
+    margin-bottom: 32px;
+    border-radius: 5px;
+    margin-right: 50px;
+
+}
+
+
+.card-left {
+    background-color: #532B79;
+    color: white;
+    height: auto;
+    width: auto;    
+    padding-bottom: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+
+#border-right{
+    border-radius: 10px; 
+    border: 0px solid #532B79;
+    background-color: #532B79;
+}
+
+.card-left .cidade{
+    font-size: 50px;
+    margin-top: -10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.card-left .temp{
+    display: flex;
+    justify-content: center;
+    background-color: #532B79;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;    
+    height: 120px;
+    width: 220px;
+    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+    border-style: solid;
+}
+
+.card-left .clima{
+    font-size: 72px;
+    margin-top: -20px;
+}
+
+.card-left .MaxMin {
+    font-size: 32px;
+}
+
+
+.card-right {
+    background-color: #919191;   
+    height: auto;
+    width: auto; 
+    border-radius: 10px;    
+    border: 0px solid #532B79;
+}
+
+
+.titulo-right {
+    font-size: 30px;
+    text-align: center;    
+    background-color: white;    
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding-bottom: 8px;
+    padding-top: 9px;
+    border: 2px #532B79 solid;
+}
+
+.tabela-unica {
+    border-bottom: 5px #532B79 solid;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.tabela-ultima {
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.tabela-unica a {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.tabela-ultima a {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+
+.cidade-tab {
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.mb{
+    margin-bottom: -10px;
+    font-size: 18px;
+}
+
+
+.nome_max-min {
+    display: flex;
+    margin-left: 180px;
+}
+
+
+.nome_max {
+    font-size: 20px;
+    margin-right: 45px;
+}
+
+.nome_min {
+    font-size: 20px;
+}
+
+.MaxMin-tab {
+    padding-bottom: 6px;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+}
+
+.sensacao {
+    display: flex;
+    justify-content: center;
+    margin-right: 13px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-size: 25px;
+}
+
+.sensacao_number {
+    margin-right: 3px;
+}
+
+.sensacao div {
+    margin-left: 10px;
+}
+
+
+.card-umidade {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nome-umidade {
+    font-size: 30px;
+}
+
+.numero-umidade {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.porcentagem-umidade {
+    font-size: 30px;
+}
+
+
+.card-vento {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nome-vento {
+    font-size: 30px;
+    margin-left: 5px;
+}
+
+.numero-vento {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.unit-vento {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.img-right {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+}

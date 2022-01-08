@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Clima Tempo</title>
+    <link rel ="shortcut icon" href = "./imagens/icon.png">
+</head>
+      
+
+<body>
+    
+    <h1 class="text-center">CLIMA TEMPO</h1>
+  
+    <div class= "container" class="container-fluid p-0 container-sm"> <!--container principal-->
+      <!--AREA ESQUERDA-->
+      <!--card-busca-->
+      <div class="area-busca">
+        <div class="card-footer bg-white">
+          <div class="input-group ">
+            <input type="text" class="form-control bg-light" placeholder="Busque uma cidade" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-info text-dark" type="button" id="button-addon2">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+      </div>
+               
+          
+      <!--card-esquerdo-->
+      <div id="border-left" class="text-center" style="width: 33rem;">  
+
+          <div class="card-left">
+            <div class="cidade">CIDADE, PAÍS</div>
+
+            <div class="container_img">
+              <img src="./icons/unknown.png">
+            </div>
+
+            <div class="clima">clima</div>
+            <div class="temp">
+              <div>0</div>            
+              <span> °C</span>
+            </div>
+
+            <div class="nome_max-min">
+              <div class="nome_max">Max</div>
+              <div class="nome_min">Min</div>
+            </div>    
+            <div class="MaxMin">0 °C | 0 °C</div>            
+            
+            <div class="sensacao">           
+              <div >SENSAÇÃO TÉRMICA: </div>       
+              <div class= "sensacao_number">0 </div> 
+              <span>°C</span>
+            </div>  
+            
+            <div class="card-umidade">           
+              <div class="nome-umidade">UMIDADE: </div>       
+              <div class="numero-umidade">0</div> 
+              <span class="porcentagem-umidade">%</span>            
+            </div> 
+            
+            <div class="card-vento">           
+              <div class="nome-vento">VENTO: </div>       
+              <div class="numero-vento">0</div> 
+              <span class="unit-vento">Km/h</span>            
+            </div>  
+
+      </div>
+                
+      </div>
+  
+      </div>
+  
+      <!--AREA DIREITA-->
+      
+    <div>  
+      <div class="titulo-right">PRINCIPAIS CIDADES DO PAÍS:</div>
+
+      <div id="border-right" class="card text-center shadow-lg" style="width: 30rem;">   
+                 
+        <div class="card-right">
+          
+          <div class=tabelas-direita>
+            <div class="tabela-unica">
+              <a href="#" class="align-items">
+                <div class="d-flex justify-content-center">
+                  <h5 class="cidade-tab">CIDADE TESTE</h5>
+                </div>
+                <div class="temp-tab">
+                  <span class="mb">Temp:</span>
+                  <span class="temp-right">0</span>
+                  <span class="unit">°C</span>
+                </div>
+                <div class="MaxMin-tab">
+                  0º | 0º
+                </div>
+              </a>
+              
+              <div class="img-right">
+                <img src="./icons/unknown.png" width="100px" height="100px" >
+              </div>  
+            </div>
+
+
+            <div class="tabela-unica">
+              <a href="#" class="align-items">
+                <div class="d-flex justify-content-center">
+                  <h5 class="cidade-tab">CIDADE TESTE</h5>
+                </div>
+                <div class="temp-tab">
+                  <span class="mb">Temp:</span>
+                  <span class="temp-right">0</span>
+                  <span class="unit">°C</span>
+                </div>
+                <div class="MaxMin-tab">
+                  0º | 0º
+                </div>
+              </a>
+              <div class="img-right">
+                <img src="./icons/unknown.png" width="100px" height="100px" >
+              </div> 
+            </div>
+            <div class="tabela-unica">
+              <a href="#" class="align-items">
+                <div class="d-flex justify-content-center">
+                  <h5 class="cidade-tab">CIDADE TESTE</h5>
+                </div>
+                <div class="temp-tab">
+                  <span class="mb">Temp:</span>
+                  <span class="temp-right">0</span>
+                  <span class="unit">°C</span>
+                </div>
+                <div class="MaxMin-tab">
+                  0º | 0º
+                </div>
+              </a>
+              <div class="img-right">
+                <img src="./icons/unknown.png" width="100px" height="100px" >
+              </div> 
+            </div>
+
+            <div class="tabela-unica">
+              <a href="#" class="align-items">
+                <div class="d-flex justify-content-center">
+                  <h5 class="cidade-tab">CIDADE TESTE</h5>
+                </div>
+                <div class="temp-tab">
+                  <span class="mb">Temp:</span>
+                  <span class="temp-right">0</span>
+                  <span class="unit">°C</span>
+                </div>
+                <div class="MaxMin-tab">
+                  0º | 0º
+                </div>
+              </a>
+              <div class="img-right">
+                <img src="./icons/unknown.png" width="100px" height="100px" >
+              </div> 
+            </div>
+
+            <div class="tabela-unica">
+              <a href="#" class="align-items">
+                <div class="d-flex justify-content-center">
+                  <h5 class="cidade-tab">CIDADE TESTE</h5>
+                </div>
+                <div class="temp-tab">
+                  <span class="mb">Temp:</span>                  
+                  <span class="temp-right">0</span>
+                  <span class="unit">°C</span>
+                </div>
+                <div class="MaxMin-tab">
+                  0º | 0º
+                </div>
+              </a>
+              <div class="img-right">
+                <img src="./icons/unknown.png" width="100px" height="100px" >
+              </div> 
+            </div>
+
+            <div class="tabela-unica">
+              <a href="#" class="align-items">
+                <div class="d-flex justify-content-center">
+                  <h5 class="cidade-tab">CIDADE TESTE</h5>
+                </div>
+                <div class="temp-tab">
+                  <span class="mb">Temp:</span>
+                  <span class="temp-right">0</span>
+                  <span class="unit">°C</span>
+                </div>
+                <div class="MaxMin-tab">
+                  0º | 0º
+                </div>
+              </a>
+              <div class="img-right">
+                <img src="./icons/unknown.png" width="100px" height="100px" >
+              </div> 
+            </div>
+
+            <div class="tabela-unica">
+              <a href="#" class="align-items">
+                <div class="d-flex justify-content-center">
+                  <h5 class="cidade-tab">CIDADE TESTE</h5>
+                </div>
+                <div class="temp-tab">
+                  <span class="mb">Temp:</span>
+                  <span class="temp-right">0</span>
+                  <span class="unit">°C</span>
+                </div>
+                <div class="MaxMin-tab">
+                  0º | 0º
+                </div>
+              </a>
+              
+              <div class="img-right">
+                <img src="./icons/unknown.png" width="100px" height="100px" >
+              </div>  
+            </div>
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>  
+    </div> <!--container principal-->
+  
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
