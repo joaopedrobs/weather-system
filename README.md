@@ -3,9 +3,6 @@
 Este é um sistema web feito em javascript, onde mostra a temperatura atual das principais cidades do mundo. 
 Foi criado com o auxílio de uma API de clima tempo, onde possuí uma fonte de informações conviáveis. 
 
-O layout foi criado usando CSS3 e a barra de buscas utilizei o do framework Bootstrap para agilizar a confecção.
-
-
 Layout inicial:
 ![image](https://user-images.githubusercontent.com/68758159/148649675-c45bbe61-1db6-4428-bfe4-a06a082d265d.png)
 
