@@ -1,6 +1,6 @@
 # weather-system
 
-Teste da API - https://openweathermap.org/api, tratamento feito em javascript em um layout simples em css.
+Teste da API - https://openweathermap.org/api, tratamento feito em javascript em um layout simples em css (com um pouco de boostrap).
 - Mostra a temperatura atual das principais cidades do mundo. 
 
 Layout inicial:
